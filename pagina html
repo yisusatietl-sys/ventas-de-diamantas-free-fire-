@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>🎮 DIAMANTES FF + SEGUIDORES IG/TIKTOK 🔥</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a1a;
+            color: #f0eef7;
+            font-family: 'Rajdhani', sans-serif;
+            min-height: 100vh;
+            padding: 10px;
+            background-image: 
+                repeating-linear-gradient(45deg, rgba(156, 39, 176, 0.08) 0px, rgba(156, 39, 176, 0.08) 2px, transparent 2px, transparent 10px),
+                radial-gradient(circle at 20% 30%, rgba(255, 0, 128, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(0, 255, 200, 0.08) 0%, transparent 40%);
+            position: relative;
+        }
+        
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.08"><path d="M20 20 L30 20 L25 30 Z" fill="%23ff44cc"/><path d="M70 60 L80 60 L75 70 Z" fill="%2300ffcc"/><circle cx="50" cy="40" r="5" fill="%23aa44ff"/></svg>');
+            pointer-events: none;
+            z-index: 0;
+            animation: bgMove 35s linear infinite;
+        }
+        
+        @keyframes bgMove {
+            0% { background-position: 0 0; }
+            100% { background-position: 250px 250px; }
+        }
+        
+        .container {
+            max-width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* HEADER GAMER - BORDES CAMBIANTES MULTICOLOR */
+        .gamer-header {
+            text-align: center;
+            padding: 25px 15px 15px 15px;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #0d0b1a, #12102a, #0f0d24);
+            border-radius: 20px;
+            border: 3px solid transparent;
+            background-clip: padding-box;
+            box-shadow: 0 0 30px rgba(255, 68, 204, 0.6), inset 0 0 15px rgba(0, 255, 204, 0.3);
+            position: relative;
+            overflow: hidden;
+            animation: borderPulseRGB 1.5s infinite alternate;
+        }
+        
+        .gamer-header::before {
+            content: "";
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(90deg, #ff44cc, #aa44ff, #00ffcc, #ffcc44, #ff44cc, #aa44ff);
+            background-size: 400% 400%;
+            border-radius: 20px;
+            z-index: -1;
+            animation: borderRotateRGB 2s linear infinite;
+        }
+        
+        @keyframes borderRotateRGB {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 200% 50%; }
+        }
+        
+        @keyframes borderPulseRGB {
+            0% { box-shadow: 0 0 20px #ff44cc, inset 0 0 10px rgba(255,68,204,0.3); }
+            33% { box-shadow: 0 0 40px #aa44ff, inset 0 0 20px rgba(170,68,255,0.4); }
+            66% { box-shadow: 0 0 35px #00ffcc, inset 0 0 20px rgba(0,255,204,0.4); }
+            100% { box-shadow: 0 0 45px #ffcc44, inset 0 0 25px rgba(255,204,68,0.4); }
+        }
+        
+        .gamer-header::after {
+            content: "FF";
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            font-size: 8rem;
+            font-weight: 900;
+            color: rgba(255, 68, 204, 0.05);
+            font-family: 'Orbitron', sans-serif;
+            transform: rotate(-15deg);
+            pointer-events: none;
+        }
+        
+        .gamer-title {
+            font-size: 2.2rem;
+            font-weight: 900;
+            margin-bottom: 5px;
+            color: #f0eef7;
+            text-shadow: 0 0 12px #ff44cc, 0 0 25px #aa44ff, 0 0 40px #00ffcc;
+            letter-spacing: 3px;
+            font-family: 'Orbitron', sans-serif;
+            animation: textFlickerRGB 2s infinite;
+        }
+        
+        @keyframes textFlickerRGB {
+            0% { text-shadow: 0 0 10px #ff44cc, 0 0 20px #aa44ff; }
+            25% { text-shadow: 0 0 15px #aa44ff, 0 0 30px #00ffcc; }
+            50% { text-shadow: 0 0 10px #00ffcc, 0 0 35px #ffcc44; }
+            75% { text-shadow: 0 0 18px #ffcc44, 0 0 28px #ff44cc; }
+            100% { text-shadow: 0 0 10px #ff44cc, 0 0 20px #00ffcc; }
+        }
+        
+        .gamer-subtitle {
+            font-size: 1.2rem;
+            color: #ffcc44;
+            font-weight: 700;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, transparent, rgba(255,68,204,0.25), transparent);
+            padding: 8px;
+            border-radius: 30px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 8px #ff44cc;
+            animation: subtitleGlow 2s infinite alternate;
+        }
+        
+        @keyframes subtitleGlow {
+            0% { color: #ffcc44; text-shadow: 0 0 5px #ffcc44; }
+            50% { color: #ff44cc; text-shadow: 0 0 12px #ff44cc; }
+            100% { color: #00ffcc; text-shadow: 0 0 8px #00ffcc; }
+        }
+
+        /* CALENDARIO DE ATENCIÓN - colores cambiantes */
+        .schedule-container {
+            background: rgba(13, 11, 26, 0.9);
+            border-radius: 20px;
+            padding: 15px 20px;
+            margin: 0 10px 20px 10px;
+            backdrop-filter: blur(5px);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            font-family: 'Orbitron', sans-serif;
+            animation: scheduleBorderGlow 1.8s infinite alternate;
+        }
+        
+        @keyframes scheduleBorderGlow {
+            0% { border: 2px solid #ff44cc; box-shadow: 0 0 15px #ff44cc; }
+            33% { border: 2px solid #aa44ff; box-shadow: 0 0 25px #aa44ff; }
+            66% { border: 2px solid #00ffcc; box-shadow: 0 0 30px #00ffcc; }
+            100% { border: 2px solid #ffcc44; box-shadow: 0 0 20px #ffcc44; }
+        }
+
+        .schedule-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 68, 204, 0.15);
+            padding: 8px 15px;
+            border-radius: 40px;
+            animation: scheduleItemBorder 2s infinite alternate;
+        }
+        
+        @keyframes scheduleItemBorder {
+            0% { border: 1px solid #ff44cc; box-shadow: 0 0 5px #ff44cc; }
+            50% { border: 1px solid #aa44ff; box-shadow: 0 0 12px #aa44ff; }
+            100% { border: 1px solid #00ffcc; box-shadow: 0 0 8px #00ffcc; }
+        }
+
+        .schedule-item i {
+            color: #ffcc44;
+            font-size: 1.2rem;
+            filter: drop-shadow(0 0 6px #ffcc44);
+            animation: iconColor 1.5s infinite alternate;
+        }
+        
+        @keyframes iconColor {
+            0% { color: #ffcc44; filter: drop-shadow(0 0 4px #ffcc44); }
+            50% { color: #ff44cc; filter: drop-shadow(0 0 8px #ff44cc); }
+            100% { color: #00ffcc; filter: drop-shadow(0 0 6px #00ffcc); }
+        }
+
+        .schedule-item span {
+            color: #f0eef7;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .schedule-item .days {
+            font-weight: 900;
+            margin-right: 5px;
+            animation: daysColor 1.8s infinite alternate;
+        }
+        
+        @keyframes daysColor {
+            0% { color: #ffcc44; text-shadow: 0 0 3px #ffcc44; }
+            50% { color: #ff44cc; text-shadow: 0 0 6px #ff44cc; }
+            100% { color: #00ffcc; text-shadow: 0 0 5px #00ffcc; }
+        }
+
+        .schedule-highlight {
+            background: linear-gradient(45deg, #ff44cc, #aa44ff);
+            padding: 8px 20px;
+            border-radius: 40px;
+            border: 2px solid #ffffff;
+            font-weight: 900;
+            color: #ffffff;
+            letter-spacing: 1px;
+            animation: highlightPulse 1.2s infinite alternate;
+        }
+        
+        @keyframes highlightPulse {
+            0% { box-shadow: 0 0 10px #ff44cc; background: linear-gradient(45deg, #ff44cc, #aa44ff); }
+            50% { box-shadow: 0 0 25px #00ffcc; background: linear-gradient(45deg, #aa44ff, #00ffcc); }
+            100% { box-shadow: 0 0 20px #ffcc44; background: linear-gradient(45deg, #ffcc44, #ff44cc); }
+        }
+
+        .schedule-highlight i {
+            margin-right: 8px;
+            color: #ffffff;
+        }
+        
+        /* BOTONES PRINCIPALES */
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            margin: 25px 0;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .gamer-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 18px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.3rem;
+            transition: all 0.3s;
+            text-align: center;
+            border: 2px solid;
+            font-family: 'Orbitron', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .gamer-btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+        
+        .gamer-btn:hover::before {
+            left: 100%;
+        }
+        
+        .whatsapp-btn {
+            background: linear-gradient(45deg, #25D366, #128C7E);
+            color: #ffffff;
+            border-color: #ffffff;
+            box-shadow: 0 0 20px #25D366, 0 0 40px #128C7E;
+        }
+        
+        .channel-btn {
+            background: linear-gradient(45deg, #ff44cc, #aa44ff);
+            color: #ffffff;
+            border-color: #ffffff;
+            animation: channelBtnGradient 2s infinite alternate;
+        }
+        
+        @keyframes channelBtnGradient {
+            0% { background: linear-gradient(45deg, #ff44cc, #aa44ff); box-shadow: 0 0 20px #ff44cc; }
+            50% { background: linear-gradient(45deg, #aa44ff, #00ffcc); box-shadow: 0 0 30px #aa44ff; }
+            100% { background: linear-gradient(45deg, #00ffcc, #ffcc44); box-shadow: 0 0 25px #00ffcc; }
+        }
+        
+        .whatsapp-btn:hover, .channel-btn:hover {
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 0 40px #ffffff, 0 0 70px #ff44cc;
+        }
+        
+        .id-display {
+            background: rgba(13, 11, 26, 0.9);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: 700;
+            font-size: 1.3rem;
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 2px;
+            backdrop-filter: blur(5px);
+            animation: idBorderColor 1.5s infinite alternate;
+        }
+        
+        @keyframes idBorderColor {
+            0% { border: 3px solid #ffcc44; box-shadow: 0 0 20px #ffcc44; color: #ffcc44; }
+            25% { border: 3px solid #ff44cc; box-shadow: 0 0 25px #ff44cc; color: #ff44cc; }
+            50% { border: 3px solid #aa44ff; box-shadow: 0 0 30px #aa44ff; color: #aa44ff; }
+            75% { border: 3px solid #00ffcc; box-shadow: 0 0 25px #00ffcc; color: #00ffcc; }
+            100% { border: 3px solid #ffcc44; box-shadow: 0 0 20px #ffcc44; color: #ffcc44; }
+        }
+        
+        /* SCROLL HORIZONTAL */
+        .section-container {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-family: 'Orbitron', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, rgba(255, 68, 204, 0.2), transparent);
+            padding: 10px 15px;
+            border-radius: 0 30px 30px 0;
+            animation: titleBorderGlow 1.8s infinite alternate;
+        }
+        
+        @keyframes titleBorderGlow {
+            0% { border-left: 6px solid #ff44cc; text-shadow: 0 0 8px #ff44cc; }
+            33% { border-left: 6px solid #aa44ff; text-shadow: 0 0 15px #aa44ff; }
+            66% { border-left: 6px solid #00ffcc; text-shadow: 0 0 12px #00ffcc; }
+            100% { border-left: 6px solid #ffcc44; text-shadow: 0 0 10px #ffcc44; }
+        }
+        
+        .products-scroll {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding: 15px 10px;
+            scrollbar-width: thin;
+            scrollbar-color: #ff44cc #0a0a1a;
+            scroll-behavior: smooth;
+        }
+        
+        .products-scroll::-webkit-scrollbar {
+            height: 10px;
+        }
+        
+        .products-scroll::-webkit-scrollbar-track {
+            background: #0a0a1a;
+            border-radius: 10px;
+            animation: scrollTrackColor 2s infinite alternate;
+        }
+        
+        @keyframes scrollTrackColor {
+            0% { border: 1px solid #ff44cc; }
+            50% { border: 1px solid #aa44ff; }
+            100% { border: 1px solid #00ffcc; }
+        }
+        
+        .products-scroll::-webkit-scrollbar-thumb {
+            background: linear-gradient(45deg, #ff44cc, #aa44ff, #00ffcc, #ffcc44);
+            background-size: 300% 300%;
+            border-radius: 10px;
+            animation: thumbGradient 2s infinite alternate;
+        }
+        
+        @keyframes thumbGradient {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        
+        /* TARJETAS - bordes RGB cambiantes */
+        .product-card {
+            min-width: 300px;
+            background: rgba(10, 8, 22, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            flex-shrink: 0;
+            border: 2px solid transparent;
+            transition: all 0.4s;
+            position: relative;
+            backdrop-filter: blur(8px);
+            animation: cardBorderAnim 2s infinite alternate;
+        }
+        
+        @keyframes cardBorderAnim {
+            0% { box-shadow: 0 0 15px #ff44cc; }
+            33% { box-shadow: 0 0 25px #aa44ff; }
+            66% { box-shadow: 0 0 20px #00ffcc; }
+            100% { box-shadow: 0 0 30px #ffcc44; }
+        }
+        
+        .product-card::before {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #ff44cc, #aa44ff, #00ffcc, #ffcc44, #ff44cc);
+            background-size: 400% 400%;
+            border-radius: 20px;
+            z-index: -1;
+            animation: rainbowNeon 1.8s ease infinite;
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+        
+        @keyframes rainbowNeon {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 200% 50%; }
+        }
+        
+        .product-card:hover::before {
+            opacity: 1;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-8px) scale(1.02);
+        }
+        
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: linear-gradient(45deg, #ff44cc, #aa44ff);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 900;
+            z-index: 2;
+            border: 1px solid #ffffff;
+            text-transform: uppercase;
+            font-family: 'Orbitron', sans-serif;
+            animation: badgeGradient 1.5s infinite alternate;
+        }
+        
+        @keyframes badgeGradient {
+            0% { background: linear-gradient(45deg, #ff44cc, #aa44ff); box-shadow: 0 0 10px #ff44cc; }
+            50% { background: linear-gradient(45deg, #aa44ff, #00ffcc); box-shadow: 0 0 15px #aa44ff; }
+            100% { background: linear-gradient(45deg, #00ffcc, #ffcc44); box-shadow: 0 0 12px #00ffcc; }
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            transition: transform 0.5s;
+            animation: imageBorder 2s infinite alternate;
+        }
+        
+        @keyframes imageBorder {
+            0% { border-bottom: 4px solid #ff44cc; }
+            33% { border-bottom: 4px solid #aa44ff; }
+            66% { border-bottom: 4px solid #00ffcc; }
+            100% { border-bottom: 4px solid #ffcc44; }
+        }
+        
+        .product-card:hover .product-image {
+            transform: scale(1.03);
+        }
+        
+        .product-content {
+            padding: 20px;
+            background: linear-gradient(180deg, rgba(20, 15, 40, 0.95), rgba(8, 6, 20, 0.98));
+        }
+        
+        .diamond-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .diamond-icon {
+            font-size: 2rem;
+            animation: diamondIconColor 1.5s infinite alternate;
+        }
+        
+        @keyframes diamondIconColor {
+            0% { color: #ffcc44; filter: drop-shadow(0 0 5px #ffcc44); }
+            50% { color: #ff44cc; filter: drop-shadow(0 0 8px #ff44cc); }
+            100% { color: #00ffcc; filter: drop-shadow(0 0 6px #00ffcc); }
+        }
+        
+        .diamond-count {
+            font-size: 1.5rem;
+            font-weight: 900;
+            font-family: 'Orbitron', sans-serif;
+            animation: countColor 1.8s infinite alternate;
+        }
+        
+        @keyframes countColor {
+            0% { color: #ffcc44; text-shadow: 0 0 5px #ffcc44; }
+            50% { color: #ff44cc; text-shadow: 0 0 8px #ff44cc; }
+            100% { color: #00ffcc; text-shadow: 0 0 6px #00ffcc; }
+        }
+        
+        .price-container {
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+            margin-bottom: 20px;
+            background: rgba(255, 68, 204, 0.1);
+            padding: 10px;
+            border-radius: 10px;
+            animation: priceBorder 1.5s infinite alternate;
+        }
+        
+        @keyframes priceBorder {
+            0% { border: 1px solid #ff44cc; }
+            50% { border: 1px solid #aa44ff; }
+            100% { border: 1px solid #00ffcc; }
+        }
+        
+        .price {
+            font-size: 2.2rem;
+            font-weight: 900;
+            animation: priceColor 1.5s infinite alternate;
+        }
+        
+        @keyframes priceColor {
+            0% { color: #00ffcc; text-shadow: 0 0 8px #00ffcc; }
+            50% { color: #ffcc44; text-shadow: 0 0 10px #ffcc44; }
+            100% { color: #ff44cc; text-shadow: 0 0 8px #ff44cc; }
+        }
+        
+        .price small {
+            font-size: 1rem;
+            color: #f0eef7;
+            opacity: 0.9;
+        }
+        
+        /* BOTÓN COMPRAR - mantiene estilo pero con animación de colores */
+        .gamer-button {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 900;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #ffffff;
+            z-index: 1;
+            animation: buttonGradientAnim 2s infinite alternate;
+        }
+        
+        @keyframes buttonGradientAnim {
+            0% { background: linear-gradient(45deg, #ff44cc, #aa44ff); box-shadow: 0 0 15px #ff44cc; }
+            50% { background: linear-gradient(45deg, #aa44ff, #00ffcc); box-shadow: 0 0 20px #aa44ff; }
+            100% { background: linear-gradient(45deg, #00ffcc, #ffcc44); box-shadow: 0 0 18px #00ffcc; }
+        }
+        
+        .gamer-button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 300%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255, 255, 255, 0.4),
+                rgba(255, 255, 255, 0.8),
+                rgba(255, 255, 255, 0.4),
+                transparent
+            );
+            transform: skewX(-25deg);
+            transition: left 0.5s;
+            z-index: -1;
+        }
+        
+        .gamer-button.animating-colors {
+            animation: colorWaveNeon 1s ease infinite;
+            background-size: 300% 300%;
+            border: 2px solid #ffffff;
+            box-shadow: 0 0 30px #ffffff, 0 0 50px #ff44cc;
+        }
+        
+        @keyframes colorWaveNeon {
+            0% {
+                background: linear-gradient(45deg, #ff44cc, #aa44ff, #00ffcc, #ffcc44);
+                background-size: 300% 300%;
+                background-position: 0% 50%;
+            }
+            50% {
+                background: linear-gradient(45deg, #aa44ff, #00ffcc, #ffcc44, #ff44cc);
+                background-size: 300% 300%;
+                background-position: 100% 50%;
+            }
+            100% {
+                background: linear-gradient(45deg, #00ffcc, #ffcc44, #ff44cc, #aa44ff);
+                background-size: 300% 300%;
+                background-position: 200% 50%;
+            }
+        }
+        
+        .gamer-button:hover::before {
+            left: 100%;
+        }
+        
+        .gamer-button:hover {
+            transform: scale(1.02);
+            letter-spacing: 4px;
+        }
+        
+        /* BOTÓN FLOTANTE */
+        .floating-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+        }
+        
+        .floating-button a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            font-size: 3rem;
+            text-decoration: none;
+            border: 3px solid #ffffff;
+            transition: all 0.4s;
+            animation: floatBtnColor 1.2s infinite alternate;
+        }
+        
+        @keyframes floatBtnColor {
+            0% { background: linear-gradient(135deg, #ff44cc, #aa44ff); box-shadow: 0 0 25px #ff44cc; }
+            33% { background: linear-gradient(135deg, #aa44ff, #00ffcc); box-shadow: 0 0 35px #aa44ff; }
+            66% { background: linear-gradient(135deg, #00ffcc, #ffcc44); box-shadow: 0 0 30px #00ffcc; }
+            100% { background: linear-gradient(135deg, #ffcc44, #ff44cc); box-shadow: 0 0 40px #ffcc44; }
+        }
+        
+        .floating-button a:hover {
+            transform: scale(1.2) rotate(5deg);
+            box-shadow: 0 0 80px #ffffff;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 15px;
+            margin-top: 40px;
+            background: rgba(10, 8, 22, 0.96);
+            border-radius: 30px 30px 0 0;
+            backdrop-filter: blur(8px);
+            animation: footerBorder 2s infinite alternate;
+        }
+        
+        @keyframes footerBorder {
+            0% { border-top: 4px solid #ff44cc; box-shadow: 0 -10px 30px rgba(255,68,204,0.3); }
+            33% { border-top: 4px solid #aa44ff; box-shadow: 0 -10px 35px rgba(170,68,255,0.3); }
+            66% { border-top: 4px solid #00ffcc; box-shadow: 0 -10px 30px rgba(0,255,204,0.3); }
+            100% { border-top: 4px solid #ffcc44; box-shadow: 0 -10px 40px rgba(255,204,68,0.3); }
+        }
+        
+        @media (max-width: 480px) {
+            .gamer-title { font-size: 1.6rem; }
+            .gamer-subtitle { font-size: 0.9rem; }
+            .product-card { min-width: 260px; }
+            .gamer-btn { font-size: 1rem; padding: 12px 20px; }
+            .floating-button a { width: 65px; height: 65px; font-size: 2.5rem; }
+            .schedule-container { flex-direction: column; gap: 10px; }
+            .contact-buttons { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <!-- (el contenido HTML permanece IDÉNTICO al original, sin cambios en textos, botones ni estructura) -->
+    <div class="floating-button">
+        <a href="https://wa.me/529541390182" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    
+    <div class="container">
+        <header class="gamer-header">
+            <h1 class="gamer-title">💎 DIAMANTES FREE FIRE 💎</h1>
+            <p class="gamer-subtitle">⚡ ENTREGA RELÁMPAGO · 5 MIN ⚡ · PRECIOS BAJOS 🔥</p>
+            
+            <div class="schedule-container">
+                <div class="schedule-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span class="days">LUN - VIE:</span>
+                    <span>después de las 4:00 PM</span>
+                </div>
+                <div class="schedule-item">
+                    <i class="fas fa-calendar-week"></i>
+                    <span class="days">SÁB - DOM:</span>
+                    <span>10:00 AM - 8:00 PM</span>
+                </div>
+                <div class="schedule-highlight">
+                    <i class="fas fa-clock"></i> HORARIO GAMER
+                </div>
+            </div>
+        </header>
+        
+        <div class="contact-buttons">
+            <a href="https://wa.me/529541390182?text=¡Hola!%20Quiero%20comprar%20diamantes%20para%20Free%20Fire%20💎%20Mi%20ID:%20(____________)%20🚀" 
+               target="_blank" class="gamer-btn whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> MENSAJE DIRECTO
+            </a>
+            <a href="https://whatsapp.com/channel/0029VbCNAZbJpe8ducsLLY1u" 
+               target="_blank" class="gamer-btn channel-btn">
+                <i class="fab fa-whatsapp"></i> CANAL OFICIAL 📢
+            </a>
+        </div>
+        
+        <div class="id-display">
+            🔥 ID DE COMPRA: (____________) 🔥
+        </div>
+
+        <!-- Sección 1: Paquetes de Diamantes -->
+        <div class="section-container">
+            <h2 class="section-title">
+                <i class="fas fa-gem" style="color:#ffcc44;"></i>
+                💎 PAQUETES DE DIAMANTES 💎
+            </h2>
+            <div class="products-scroll">
+                <div class="product-card"><div class="product-badge">🌟 POPULAR</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">110 DIAMANTES</span></div><div class="price-container"><span class="price">$19</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(110, 19, '110 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">⚡ RÁPIDO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">341 DIAMANTES</span></div><div class="price-container"><span class="price">$69</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(341, 69, '341 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🔥 PODER</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">572 DIAMANTES</span></div><div class="price-container"><span class="price">$94</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(572, 94, '572 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🎁 OFERTA</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">1,166 DIAMANTES</span></div><div class="price-container"><span class="price">$190</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(1166, 190, '1,166 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">👑 ÉPICO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">2,398 DIAMANTES</span></div><div class="price-container"><span class="price">$360</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(2398, 360, '2,398 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">💥 MEGA</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">6,160 DIAMANTES</span></div><div class="price-container"><span class="price">$880</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(6160, 880, '6,160 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+            </div>
+        </div>
+
+        <!-- Sección 2: Combos Especiales -->
+        <div class="section-container">
+            <h2 class="section-title"><i class="fas fa-fire" style="color:#ffcc44;"></i> 🔥 COMBOS ESPECIALES 🔥</h2>
+            <div class="products-scroll">
+                <div class="product-card"><div class="product-badge">✨ NUEVO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">220 DIAMANTES</span></div><div class="price-container"><span class="price">$27</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(220, 27, '220 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🌀 COMBO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">451 DIAMANTES</span></div><div class="price-container"><span class="price">$88</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(451, 88, '451 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">💣 EXPLOSIVO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">682 DIAMANTES</span></div><div class="price-container"><span class="price">$113</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(682, 113, '682 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">⭐ RECOMENDADO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">712 DIAMANTES</span></div><div class="price-container"><span class="price">$129</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(712, 129, '712 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🏆 TOP</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">913 DIAMANTES</span></div><div class="price-container"><span class="price">$160</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(913, 160, '913 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🌟 NUEVO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">1023 DIAMANTES</span></div><div class="price-container"><span class="price">$189</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(1023, 189, '1023 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🎯 ESPECIAL</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">1507 DIAMANTES</span></div><div class="price-container"><span class="price">$258</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(1507, 258, '1507 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">⚡ PODER</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">1738 DIAMANTES</span></div><div class="price-container"><span class="price">$281</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(1738, 281, '1738 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">💎 MEGA</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">2079 DIAMANTES</span></div><div class="price-container"><span class="price">$450</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(2079, 450, '2079 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🏅 TOP</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">3080 DIAMANTES</span></div><div class="price-container"><span class="price">$485</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(3080, 485, '3080 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+            </div>
+        </div>
+
+        <!-- Sección 3: Cantidades Grandes -->
+        <div class="section-container">
+            <h2 class="section-title"><i class="fas fa-rocket" style="color:#ffcc44;"></i> 🚀 CANTIDADES GRANDES 🚀</h2>
+            <div class="products-scroll">
+                <div class="product-card"><div class="product-badge">💎 SUPER OFERTA</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">10,956 DIAMANTES</span></div><div class="price-container"><span class="price">$1,520</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(10956, 1520, '10,956 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🔥 MEGA</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">15,290 DIAMANTES</span></div><div class="price-container"><span class="price">$2,170</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(15290, 2170, '15,290 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🏆 MEJOR PRECIO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">20,878 DIAMANTES</span></div><div class="price-container"><span class="price">$2,870</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(20878, 2870, '20,878 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">👑 ÉPICO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">25,212 DIAMANTES</span></div><div class="price-container"><span class="price">$3,650</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(25212, 3650, '25,212 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">💯 MÁXIMO AHORRO</div><img src="https://media.tycsports.com/files/2022/03/11/400802/diamantes-free-fire_1440x810_wmk.jpg" alt="Diamantes" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">💎</span><span class="diamond-count">30,800 DIAMANTES</span></div><div class="price-container"><span class="price">$4,400</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct(30800, 4400, '30,800 Diamantes', this)"><span>COMPRAR</span></button></div></div>
+            </div>
+        </div>
+
+        <!-- Sección 4: Membresías + Pase Booyah -->
+        <div class="section-container">
+            <h2 class="section-title"><i class="fas fa-crown" style="color:#ffcc44;"></i> 👑 MEMBRESÍAS 👑</h2>
+            <div class="products-scroll">
+                <div class="product-card"><div class="product-badge">🎮 BÁSICA</div><img src="https://staticg.sportskeeda.com/editor/2021/10/3d3b0-16331651539384-800.jpg" alt="Membresía" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">👑</span><span class="diamond-count">MEMBRESÍA BÁSICA</span></div><div class="price-container"><span class="price">$9</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct('Membresía Básica', 9, 'Membresía Básica', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">📅 SEMANAL</div><img src="https://staticg.sportskeeda.com/editor/2021/10/3d3b0-16331651539384-800.jpg" alt="Membresía" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">👑</span><span class="diamond-count">MEMBRESÍA SEMANAL</span></div><div class="price-container"><span class="price">$40</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct('Membresía Semanal', 40, 'Membresía Semanal', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">📆 MENSUAL</div><img src="https://staticg.sportskeeda.com/editor/2021/10/3d3b0-16331651539384-800.jpg" alt="Membresía" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">👑</span><span class="diamond-count">MEMBRESÍA MENSUAL</span></div><div class="price-container"><span class="price">$190</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct('Membresía Mensual', 190, 'Membresía Mensual', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🎟️ LIMITADO</div><img src="https://staticg.sportskeeda.com/editor/2022/11/d3ab0-16696295599387-1920.jpg" alt="Pase Booyah" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon">🎯</span><span class="diamond-count">PASE BOOYAH</span></div><div class="price-container"><span class="price">$35</span><small>MXN</small></div><button class="gamer-button" onclick="buyProduct('Pase Booyah', 35, 'Pase Booyah', this)"><span>COMPRAR</span></button></div></div>
+            </div>
+        </div>
+
+        <!-- Sección Seguidores -->
+        <div class="section-container">
+            <h2 class="section-title"><i class="fab fa-instagram" style="color:#ffcc44;"></i> <i class="fab fa-tiktok" style="color:#ffcc44;"></i> 🚀 SEGUIDORES IG & TIKTOK 🚀</h2>
+            <div class="products-scroll">
+                <div class="product-card"><div class="product-badge">🌱 INICIAL</div><img src="https://negociosrentablesfx.com/wp-content/uploads/2021/10/seguidores.jpg" alt="Seguidores" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon"><i class="fas fa-users"></i></span><span class="diamond-count">100 SEGUIDORES</span></div><div class="price-container"><span class="price">$70</span><small>MXN</small></div><button class="gamer-button" onclick="buyFollowers(100, 70, '100 Seguidores IG/TikTok', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🔥 POPULAR</div><img src="https://negociosrentablesfx.com/wp-content/uploads/2021/10/seguidores.jpg" alt="Seguidores" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon"><i class="fas fa-users"></i></span><span class="diamond-count">500 SEGUIDORES</span></div><div class="price-container"><span class="price">$180</span><small>MXN</small></div><button class="gamer-button" onclick="buyFollowers(500, 180, '500 Seguidores IG/TikTok', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">📈 CRECIMIENTO</div><img src="https://negociosrentablesfx.com/wp-content/uploads/2021/10/seguidores.jpg" alt="Seguidores" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon"><i class="fas fa-users"></i></span><span class="diamond-count">1,000 SEGUIDORES</span></div><div class="price-container"><span class="price">$250</span><small>MXN</small></div><button class="gamer-button" onclick="buyFollowers(1000, 250, '1,000 Seguidores IG/TikTok', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">⚡ AVANZADO</div><img src="https://negociosrentablesfx.com/wp-content/uploads/2021/10/seguidores.jpg" alt="Seguidores" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon"><i class="fab fa-tiktok"></i></span><span class="diamond-count">2,000 SEGUIDORES</span></div><div class="price-container"><span class="price">$400</span><small>MXN</small></div><button class="gamer-button" onclick="buyFollowers(2000, 400, '2,000 Seguidores IG/TikTok', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">🏅 PRO</div><img src="https://negociosrentablesfx.com/wp-content/uploads/2021/10/seguidores.jpg" alt="Seguidores" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon"><i class="fab fa-tiktok"></i></span><span class="diamond-count">3,000 SEGUIDORES</span></div><div class="price-container"><span class="price">$500</span><small>MXN</small></div><button class="gamer-button" onclick="buyFollowers(3000, 500, '3,000 Seguidores IG/TikTok', this)"><span>COMPRAR</span></button></div></div>
+                <div class="product-card"><div class="product-badge">💎 MEGA</div><img src="https://negociosrentablesfx.com/wp-content/uploads/2021/10/seguidores.jpg" alt="Seguidores" class="product-image"><div class="product-content"><div class="diamond-info"><span class="diamond-icon"><i class="fas fa-crown"></i></span><span class="diamond-count">10,000 SEGUIDORES</span></div><div class="price-container"><span class="price">$1,500</span><small>MXN</small></div><button class="gamer-button" onclick="buyFollowers(10000, 1500, '10,000 Seguidores IG/TikTok', this)"><span>COMPRAR</span></button></div></div>
+            </div>
+        </div>
+
+        <footer>
+            <div style="color: #ffcc44; margin-bottom: 20px; font-size: 1.5rem; font-weight: 900; font-family: 'Orbitron', sans-serif; text-shadow: 0 0 15px #ff44cc;">
+                CONTACTO DIRECTO
+            </div>
+            <div class="contact-buttons" style="margin-top: 10px;">
+                <a href="https://wa.me/529541390182?text=¡Hola!%20Quiero%20comprar%20diamantes%20o%20seguidores%20💎%20Mi%20ID%20o%20link:%20(____________)%20🚀" 
+                   target="_blank" class="gamer-btn whatsapp-btn" style="max-width: 90%;">
+                    <i class="fab fa-whatsapp"></i> ENVIAR MENSAJE
+                </a>
+            </div>
+            <div style="display: flex; justify-content: center; gap: 15px; margin: 25px 0; flex-wrap: wrap;">
+                <div style="padding: 10px 20px; border-radius: 30px; border: 2px solid #ffffff; font-weight: bold; animation: paymentColor 2s infinite alternate;">💸 Transferencia</div>
+                <div style="padding: 10px 20px; border-radius: 30px; border: 2px solid #ffffff; font-weight: bold; animation: paymentColor 2s infinite alternate 0.3s;">🏧 OXXO</div>
+                <div style="padding: 10px 20px; border-radius: 30px; border: 2px solid #ffffff; font-weight: bold; animation: paymentColor 2s infinite alternate 0.6s;">💳 Tarjeta</div>
+            </div>
+            <style>
+                @keyframes paymentColor {
+                    0% { background: linear-gradient(45deg, #ff44cc, #aa44ff); box-shadow: 0 0 10px #ff44cc; }
+                    50% { background: linear-gradient(45deg, #aa44ff, #00ffcc); box-shadow: 0 0 15px #aa44ff; }
+                    100% { background: linear-gradient(45deg, #00ffcc, #ffcc44); box-shadow: 0 0 12px #00ffcc; }
+                }
+            </style>
+            <div class="id-display" style="font-size: 1.5rem;">
+                📞 +52 954 139 0182 📞
+            </div>
+            <div style="margin-top: 25px; font-size: 0.9rem; color: #aa99cc; text-transform: uppercase; letter-spacing: 2px;">
+                © 2025 DIAMANTES FREE FIRE + SEGUIDORES IG/TIKTOK ⚡ ENTREGA INMEDIATA ⚡ ID: (____________)
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        const PHONE_NUMBER = "529541390182";
+        
+        function activateColorEffect(button) {
+            button.classList.remove('animating-colors');
+            void button.offsetWidth;
+            button.classList.add('animating-colors');
+            setTimeout(() => button.classList.remove('animating-colors'), 2000);
+        }
+        
+        function buyProduct(quantity, price, productName, button) {
+            activateColorEffect(button);
+            const message = `💎 *SOLICITUD DE COMPRA - FREE FIRE* 💎\n\n🔥 *PRODUCTO:* ${productName}\n💰 *PRECIO:* $${price} MXN\n🎮 *MI ID DE FREE FIRE:* (____________)\n\n⚡ *¡QUIERO COMPRAR AHORA!* ⚡`;
+            const url = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
+            setTimeout(() => window.open(url, '_blank'), 300);
+        }
+        
+        function buyFollowers(quantity, price, productName, button) {
+            activateColorEffect(button);
+            const message = `🚀 *SOLICITUD DE COMPRA - SEGUIDORES IG/TIKTOK* 🚀\n\n📦 *PAQUETE:* ${productName}\n💵 *PRECIO:* $${price} MXN\n🔗 *MI LINK DE CUENTA:* (____________)\n\n💥 *¡QUIERO COMPRAR AHORA!* 💥`;
+            const url = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
+            setTimeout(() => window.open(url, '_blank'), 300);
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.product-card');
+            cards.forEach((card, idx) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(25px) scale(0.96)';
+                setTimeout(() => {
+                    card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0) scale(1)';
+                }, idx * 60);
+            });
+            
+            const style = document.createElement('style');
+            style.innerHTML = `@keyframes ripple { 0% { transform: translate(-50%, -50%) scale(0); opacity: 0.7; } 100% { transform: translate(-50%, -50%) scale(4); opacity: 0; } }`;
+            document.head.appendChild(style);
+            
+            document.querySelectorAll('.gamer-button').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    this.style.transform = 'scale(0.96)';
+                    const ripple = document.createElement('span');
+                    ripple.style.position = 'absolute';
+                    ripple.style.background = 'rgba(255,255,255,0.6)';
+                    ripple.style.borderRadius = '50%';
+                    ripple.style.width = '80px';
+                    ripple.style.height = '80px';
+                    ripple.style.transform = 'translate(-50%, -50%) scale(0)';
+                    ripple.style.animation = 'ripple 0.5s ease-out';
+                    ripple.style.pointerEvents = 'none';
+                    const rect = this.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    ripple.style.left = x + 'px';
+                    ripple.style.top = y + 'px';
+                    this.appendChild(ripple);
+                    setTimeout(() => { this.style.transform = 'scale(1)'; ripple.remove(); }, 200);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
